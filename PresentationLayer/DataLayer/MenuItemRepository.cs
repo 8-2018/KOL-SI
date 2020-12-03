@@ -39,7 +39,7 @@ namespace DataLayer
             return results;
         }
 
-        public int InsertMenuItemt(MenuItem mi)
+        public int InsertMenuItem(MenuItem mi)
         {
             using (SqlConnection sqlConnection = new SqlConnection(Constants.connString))
             {

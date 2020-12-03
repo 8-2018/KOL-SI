@@ -1,0 +1,5 @@
+﻿SET IDENTITY_INSERT [dbo].[MenuItems] ON
+INSERT INTO [dbo].[MenuItems] ([Id], [Title], [Description], [Price]) VALUES (1, N'Pasulj', N'Corbast pasulj', CAST(350.00 AS Decimal(18, 2)))
+INSERT INTO [dbo].[MenuItems] ([Id], [Title], [Description], [Price]) VALUES (2, N'Gulas', N'Gulas sa pecurkama', CAST(650.00 AS Decimal(18, 2)))
+INSERT INTO [dbo].[MenuItems] ([Id], [Title], [Description], [Price]) VALUES (3, N'Cizkejk', N'Sezonsko voce', CAST(240.00 AS Decimal(18, 2)))
+SET IDENTITY_INSERT [dbo].[MenuItems] OFF
